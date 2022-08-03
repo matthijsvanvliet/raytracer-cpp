@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.cpp
+Canvas.h
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.h
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.h
+Color.h
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.h
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.cpp
+iostream
+-
+Color.h
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.h
+Helper.h
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Helper.h
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.h
+Tuple.h
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.h
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Helper.h
+math.h
+-
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.cpp
+math.h
+-
+iostream
+-
+Tuple.h
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.h
+Helper.h
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Helper.h
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.h
+string
+-
+

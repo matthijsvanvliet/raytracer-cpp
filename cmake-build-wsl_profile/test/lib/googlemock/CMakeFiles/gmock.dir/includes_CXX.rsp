@@ -1,0 +1,1 @@
+-IC:/Users/Matthijs/CLionProjects/Raytracer/src -IC:/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include -IC:/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock -isystem C:/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include -isystem C:/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest 

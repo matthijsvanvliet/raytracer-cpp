@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.h
+vector
+-
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.cpp
+Matrix4.h
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.h
+iostream
+-
+cstring
+-
+
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.h
+Matrix.h
+/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.h
+
