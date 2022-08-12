@@ -1,4 +1,5 @@
 #include "Matrix.h"
+#include "Helper.h"
 #include <iostream>
 #include <stdexcept>
 
@@ -64,7 +65,7 @@ int Matrix::GetLength() const
     return MaxLength;
 }
 
-void Matrix::Fill(std::vector<double>& values)
+void Matrix::Fill(std::vector<float>& values)
 {
     if (values.size() > MaxLength * MaxLength)
     {
@@ -86,7 +87,7 @@ void Matrix::Fill(std::vector<double>& values)
     }
 }
 
-double Matrix::operator() (unsigned int row, unsigned int column) const
+float Matrix::operator() (unsigned int row, unsigned int column) const
 {
     if (row >= MaxLength || column >= MaxLength)
     {
@@ -98,7 +99,7 @@ double Matrix::operator() (unsigned int row, unsigned int column) const
     }
 }
 
-double& Matrix::operator() (unsigned int row, unsigned int column)
+float& Matrix::operator() (unsigned int row, unsigned int column)
 {
     if (row >= MaxLength || column >= MaxLength)
     {
@@ -116,7 +117,7 @@ bool Matrix::operator== (const Matrix& other) const
     {
         for (int y = 0; y < MaxLength; y++)
         {
-            if ((*this)(x, y) != other(x, y))
+            if (!Helper::IsEqual((*this)(x, y), other(x, y)))
             {
                 return false;
             }
@@ -132,7 +133,7 @@ bool Matrix::operator!= (const Matrix &other) const
     {
         for (int y = 0; y < MaxLength; y++)
         {
-            if ((*this)(x, y) != other(x, y))
+            if (!Helper::IsEqual((*this)(x, y), other(x, y)))
             {
                 return true;
             }

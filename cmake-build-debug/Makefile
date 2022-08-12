@@ -57,10 +57,10 @@ RM = /home/matthijs/cmake-3.21.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer
+CMAKE_SOURCE_DIR = /mnt/c/git/raytracer-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/git/raytracer-cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/git/raytracer-cpp/cmake-build-debug/CMakeFiles /mnt/c/git/raytracer-cpp/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/git/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -361,6 +361,30 @@ src/Matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracer.dir/build.make CMakeFiles/Raytracer.dir/src/Matrix.cpp.s
 .PHONY : src/Matrix.cpp.s
 
+src/Matrix2.o: src/Matrix2.cpp.o
+.PHONY : src/Matrix2.o
+
+# target to build an object file
+src/Matrix2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracer.dir/build.make CMakeFiles/Raytracer.dir/src/Matrix2.cpp.o
+.PHONY : src/Matrix2.cpp.o
+
+src/Matrix2.i: src/Matrix2.cpp.i
+.PHONY : src/Matrix2.i
+
+# target to preprocess a source file
+src/Matrix2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracer.dir/build.make CMakeFiles/Raytracer.dir/src/Matrix2.cpp.i
+.PHONY : src/Matrix2.cpp.i
+
+src/Matrix2.s: src/Matrix2.cpp.s
+.PHONY : src/Matrix2.s
+
+# target to generate assembly for a file
+src/Matrix2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracer.dir/build.make CMakeFiles/Raytracer.dir/src/Matrix2.cpp.s
+.PHONY : src/Matrix2.cpp.s
+
 src/Matrix3.o: src/Matrix3.cpp.o
 .PHONY : src/Matrix3.o
 
@@ -465,6 +489,9 @@ help:
 	@echo "... src/Matrix.o"
 	@echo "... src/Matrix.i"
 	@echo "... src/Matrix.s"
+	@echo "... src/Matrix2.o"
+	@echo "... src/Matrix2.i"
+	@echo "... src/Matrix2.s"
 	@echo "... src/Matrix3.o"
 	@echo "... src/Matrix3.i"
 	@echo "... src/Matrix3.s"

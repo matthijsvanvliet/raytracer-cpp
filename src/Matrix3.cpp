@@ -13,7 +13,7 @@ Matrix2 Matrix3::Submatrix(const unsigned int row, const unsigned int column) co
 {
     Matrix2 m;
 
-    std::vector<double> v;
+    std::vector<float> v;
 
     for (int x = 0; x < MaxLength; x++)
     {
@@ -65,17 +65,17 @@ Matrix2 Matrix3::Submatrix(const unsigned int row, const unsigned int column) co
     return m;
 }
 
-double Matrix3::Minor(const unsigned int row, const unsigned int column) const
+float Matrix3::Minor(const unsigned int row, const unsigned int column) const
 {
     return Submatrix(row, column).Determinant();
 }
 
-double Matrix3::Cofactor(const unsigned int row, const unsigned int column) const
+float Matrix3::Cofactor(const unsigned int row, const unsigned int column) const
 {
     return (row + column) % 2 == 0 ? Minor(row, column) : Minor(row, column) * -1;
 }
 
-double Matrix3::Determinant() const
+float Matrix3::Determinant() const
 {
     double det;
     for (int col = 0; col < MaxLength; col++)

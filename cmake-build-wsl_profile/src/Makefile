@@ -57,10 +57,10 @@ RM = /home/matthijs/cmake-3.21.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer
+CMAKE_SOURCE_DIR = /mnt/c/git/raytracer-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile
+CMAKE_BINARY_DIR = /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/CMakeFiles /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/src//CMakeFiles/progress.marks
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/CMakeFiles 0
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/CMakeFiles /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/src//CMakeFiles/progress.marks
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Raytracer_lib.dir/rule:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Raytracer_lib.dir/rule
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Raytracer_lib.dir/rule
 .PHONY : src/CMakeFiles/Raytracer_lib.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ Raytracer_lib: src/CMakeFiles/Raytracer_lib.dir/rule
 
 # fast build rule for target.
 Raytracer_lib/fast:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/build
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/build
 .PHONY : Raytracer_lib/fast
 
 # Convenience name for target.
 src/CMakeFiles/Raytracer_run.dir/rule:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Raytracer_run.dir/rule
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Raytracer_run.dir/rule
 .PHONY : src/CMakeFiles/Raytracer_run.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ Raytracer_run: src/CMakeFiles/Raytracer_run.dir/rule
 
 # fast build rule for target.
 Raytracer_run/fast:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/build
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/build
 .PHONY : Raytracer_run/fast
 
 Canvas.o: Canvas.cpp.o
@@ -194,8 +194,8 @@ Canvas.o: Canvas.cpp.o
 
 # target to build an object file
 Canvas.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Canvas.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Canvas.cpp.o
 .PHONY : Canvas.cpp.o
 
 Canvas.i: Canvas.cpp.i
@@ -203,8 +203,8 @@ Canvas.i: Canvas.cpp.i
 
 # target to preprocess a source file
 Canvas.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.i
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Canvas.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Canvas.cpp.i
 .PHONY : Canvas.cpp.i
 
 Canvas.s: Canvas.cpp.s
@@ -212,8 +212,8 @@ Canvas.s: Canvas.cpp.s
 
 # target to generate assembly for a file
 Canvas.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.s
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Canvas.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Canvas.cpp.s
 .PHONY : Canvas.cpp.s
 
 Color.o: Color.cpp.o
@@ -221,8 +221,8 @@ Color.o: Color.cpp.o
 
 # target to build an object file
 Color.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Color.cpp.o
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Color.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Color.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Color.cpp.o
 .PHONY : Color.cpp.o
 
 Color.i: Color.cpp.i
@@ -230,8 +230,8 @@ Color.i: Color.cpp.i
 
 # target to preprocess a source file
 Color.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Color.cpp.i
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Color.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Color.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Color.cpp.i
 .PHONY : Color.cpp.i
 
 Color.s: Color.cpp.s
@@ -239,8 +239,8 @@ Color.s: Color.cpp.s
 
 # target to generate assembly for a file
 Color.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Color.cpp.s
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Color.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Color.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Color.cpp.s
 .PHONY : Color.cpp.s
 
 Matrix.o: Matrix.cpp.o
@@ -248,8 +248,8 @@ Matrix.o: Matrix.cpp.o
 
 # target to build an object file
 Matrix.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix.cpp.o
 .PHONY : Matrix.cpp.o
 
 Matrix.i: Matrix.cpp.i
@@ -257,8 +257,8 @@ Matrix.i: Matrix.cpp.i
 
 # target to preprocess a source file
 Matrix.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.i
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix.cpp.i
 .PHONY : Matrix.cpp.i
 
 Matrix.s: Matrix.cpp.s
@@ -266,8 +266,8 @@ Matrix.s: Matrix.cpp.s
 
 # target to generate assembly for a file
 Matrix.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.s
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix.cpp.s
 .PHONY : Matrix.cpp.s
 
 Matrix2.o: Matrix2.cpp.o
@@ -275,8 +275,8 @@ Matrix2.o: Matrix2.cpp.o
 
 # target to build an object file
 Matrix2.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix2.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix2.cpp.o
 .PHONY : Matrix2.cpp.o
 
 Matrix2.i: Matrix2.cpp.i
@@ -284,8 +284,8 @@ Matrix2.i: Matrix2.cpp.i
 
 # target to preprocess a source file
 Matrix2.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.i
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix2.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix2.cpp.i
 .PHONY : Matrix2.cpp.i
 
 Matrix2.s: Matrix2.cpp.s
@@ -293,8 +293,8 @@ Matrix2.s: Matrix2.cpp.s
 
 # target to generate assembly for a file
 Matrix2.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.s
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix2.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix2.cpp.s
 .PHONY : Matrix2.cpp.s
 
 Matrix3.o: Matrix3.cpp.o
@@ -302,8 +302,8 @@ Matrix3.o: Matrix3.cpp.o
 
 # target to build an object file
 Matrix3.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix3.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix3.cpp.o
 .PHONY : Matrix3.cpp.o
 
 Matrix3.i: Matrix3.cpp.i
@@ -311,8 +311,8 @@ Matrix3.i: Matrix3.cpp.i
 
 # target to preprocess a source file
 Matrix3.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.i
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix3.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix3.cpp.i
 .PHONY : Matrix3.cpp.i
 
 Matrix3.s: Matrix3.cpp.s
@@ -320,8 +320,8 @@ Matrix3.s: Matrix3.cpp.s
 
 # target to generate assembly for a file
 Matrix3.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.s
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix3.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix3.cpp.s
 .PHONY : Matrix3.cpp.s
 
 Matrix4.o: Matrix4.cpp.o
@@ -329,8 +329,8 @@ Matrix4.o: Matrix4.cpp.o
 
 # target to build an object file
 Matrix4.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix4.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix4.cpp.o
 .PHONY : Matrix4.cpp.o
 
 Matrix4.i: Matrix4.cpp.i
@@ -338,8 +338,8 @@ Matrix4.i: Matrix4.cpp.i
 
 # target to preprocess a source file
 Matrix4.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.i
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix4.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix4.cpp.i
 .PHONY : Matrix4.cpp.i
 
 Matrix4.s: Matrix4.cpp.s
@@ -347,8 +347,8 @@ Matrix4.s: Matrix4.cpp.s
 
 # target to generate assembly for a file
 Matrix4.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.s
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix4.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Matrix4.cpp.s
 .PHONY : Matrix4.cpp.s
 
 Tuple.o: Tuple.cpp.o
@@ -356,8 +356,8 @@ Tuple.o: Tuple.cpp.o
 
 # target to build an object file
 Tuple.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Tuple.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Tuple.cpp.o
 .PHONY : Tuple.cpp.o
 
 Tuple.i: Tuple.cpp.i
@@ -365,8 +365,8 @@ Tuple.i: Tuple.cpp.i
 
 # target to preprocess a source file
 Tuple.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.i
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Tuple.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Tuple.cpp.i
 .PHONY : Tuple.cpp.i
 
 Tuple.s: Tuple.cpp.s
@@ -374,8 +374,8 @@ Tuple.s: Tuple.cpp.s
 
 # target to generate assembly for a file
 Tuple.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.s
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Tuple.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/Tuple.cpp.s
 .PHONY : Tuple.cpp.s
 
 # Help Target
@@ -424,6 +424,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

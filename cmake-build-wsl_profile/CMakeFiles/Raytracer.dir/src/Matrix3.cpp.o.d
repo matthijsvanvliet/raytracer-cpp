@@ -1,9 +1,9 @@
 CMakeFiles/Raytracer.dir/src/Matrix3.cpp.o: \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix3.cpp \
- /usr/include/stdc-predef.h \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix3.h \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.h \
- /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_algobase.h \
+ /mnt/c/git/raytracer-cpp/src/Matrix3.cpp /usr/include/stdc-predef.h \
+ /mnt/c/git/raytracer-cpp/src/Matrix3.h \
+ /mnt/c/git/raytracer-cpp/src/Matrix2.h \
+ /mnt/c/git/raytracer-cpp/src/Matrix.h /usr/include/c++/9/vector \
+ /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -43,5 +43,4 @@ CMakeFiles/Raytracer.dir/src/Matrix3.cpp.o: \
  /usr/include/c++/9/bits/stl_bvector.h \
  /usr/include/c++/9/bits/functional_hash.h \
  /usr/include/c++/9/bits/range_access.h \
- /usr/include/c++/9/bits/vector.tcc \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix2.h
+ /usr/include/c++/9/bits/vector.tcc

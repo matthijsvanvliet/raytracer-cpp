@@ -7,14 +7,18 @@
 
 class Matrix4 : public virtual Matrix
 {
+private:
+    float GetInverseElement(float cofactor, float determinant) const;
 public:
     Matrix4();
     Matrix4 Transpose() const;
     Matrix3 Submatrix(const unsigned int row, const unsigned int column) const;
-    double Minor(const unsigned int row, const unsigned int column) const;
-    double Cofactor(const unsigned int row, const unsigned int column) const;
-    double Determinant() const;
+    float Minor(const unsigned int row, const unsigned int column) const;
+    float Cofactor(const unsigned int row, const unsigned int column) const;
+    float Determinant() const;
     static Matrix4 IdentityMatrix();
+    bool Invertible() const;
+    Matrix4 Invert() const;
     Matrix4 operator* (const Matrix4& other) const;
     Tuple operator* (const Tuple& tuple) const;
 };

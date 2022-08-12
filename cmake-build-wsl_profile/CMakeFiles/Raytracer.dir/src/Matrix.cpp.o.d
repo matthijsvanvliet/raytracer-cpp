@@ -1,8 +1,7 @@
 CMakeFiles/Raytracer.dir/src/Matrix.cpp.o: \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.cpp \
- /usr/include/stdc-predef.h \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.h \
- /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_algobase.h \
+ /mnt/c/git/raytracer-cpp/src/Matrix.cpp /usr/include/stdc-predef.h \
+ /mnt/c/git/raytracer-cpp/src/Matrix.h /usr/include/c++/9/vector \
+ /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src
+# Install script for directory: /mnt/c/git/raytracer-cpp/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

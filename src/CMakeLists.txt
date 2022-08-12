@@ -6,4 +6,4 @@ set(SOURCES ${SOURCES})
 
 add_executable(${BINARY}_run ${SOURCES})
 
-add_library(${BINARY}_lib STATIC ${SOURCES} Matrix2.cpp Matrix2.h)
+add_library(${BINARY}_lib STATIC ${SOURCES})

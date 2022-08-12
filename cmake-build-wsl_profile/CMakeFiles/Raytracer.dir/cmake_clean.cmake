@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Raytracer.dir/src/Color.cpp.o.d"
   "CMakeFiles/Raytracer.dir/src/Matrix.cpp.o"
   "CMakeFiles/Raytracer.dir/src/Matrix.cpp.o.d"
+  "CMakeFiles/Raytracer.dir/src/Matrix2.cpp.o"
+  "CMakeFiles/Raytracer.dir/src/Matrix2.cpp.o.d"
   "CMakeFiles/Raytracer.dir/src/Matrix3.cpp.o"
   "CMakeFiles/Raytracer.dir/src/Matrix3.cpp.o.d"
   "CMakeFiles/Raytracer.dir/src/Matrix4.cpp.o"

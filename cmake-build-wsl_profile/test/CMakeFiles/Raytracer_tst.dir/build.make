@@ -53,10 +53,10 @@ RM = /home/matthijs/cmake-3.21.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer
+CMAKE_SOURCE_DIR = /mnt/c/git/raytracer-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile
+CMAKE_BINARY_DIR = /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/Raytracer_tst.dir/depend.make
@@ -72,58 +72,58 @@ include test/CMakeFiles/Raytracer_tst.dir/flags.make
 test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o: test/CMakeFiles/Raytracer_tst.dir/flags.make
 test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o: ../test/AllTests.cpp
 test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o: test/CMakeFiles/Raytracer_tst.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o -MF CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o.d -o CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/AllTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o"
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o -MF CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o.d -o CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o -c /mnt/c/git/raytracer-cpp/test/AllTests.cpp
 
 test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_tst.dir/AllTests.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/AllTests.cpp > CMakeFiles/Raytracer_tst.dir/AllTests.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/git/raytracer-cpp/test/AllTests.cpp > CMakeFiles/Raytracer_tst.dir/AllTests.cpp.i
 
 test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_tst.dir/AllTests.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/AllTests.cpp -o CMakeFiles/Raytracer_tst.dir/AllTests.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/git/raytracer-cpp/test/AllTests.cpp -o CMakeFiles/Raytracer_tst.dir/AllTests.cpp.s
 
 test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o: test/CMakeFiles/Raytracer_tst.dir/flags.make
 test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o: ../test/CanvasTest.cpp
 test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o: test/CMakeFiles/Raytracer_tst.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o -MF CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o.d -o CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/CanvasTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o"
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o -MF CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o.d -o CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o -c /mnt/c/git/raytracer-cpp/test/CanvasTest.cpp
 
 test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/CanvasTest.cpp > CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/git/raytracer-cpp/test/CanvasTest.cpp > CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.i
 
 test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/CanvasTest.cpp -o CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/git/raytracer-cpp/test/CanvasTest.cpp -o CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.s
 
 test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o: test/CMakeFiles/Raytracer_tst.dir/flags.make
 test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o: ../test/MatrixTest.cpp
 test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o: test/CMakeFiles/Raytracer_tst.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o -MF CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o.d -o CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/MatrixTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o"
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o -MF CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o.d -o CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o -c /mnt/c/git/raytracer-cpp/test/MatrixTest.cpp
 
 test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/MatrixTest.cpp > CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/git/raytracer-cpp/test/MatrixTest.cpp > CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.i
 
 test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/MatrixTest.cpp -o CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/git/raytracer-cpp/test/MatrixTest.cpp -o CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.s
 
 test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o: test/CMakeFiles/Raytracer_tst.dir/flags.make
 test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o: ../test/TupleTest.cpp
 test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o: test/CMakeFiles/Raytracer_tst.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o -MF CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o.d -o CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/TupleTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o"
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o -MF CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o.d -o CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o -c /mnt/c/git/raytracer-cpp/test/TupleTest.cpp
 
 test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/TupleTest.cpp > CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/git/raytracer-cpp/test/TupleTest.cpp > CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.i
 
 test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/TupleTest.cpp -o CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/git/raytracer-cpp/test/TupleTest.cpp -o CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.s
 
 # Object files for target Raytracer_tst
 Raytracer_tst_OBJECTS = \
@@ -143,18 +143,18 @@ test/Raytracer_tst: test/CMakeFiles/Raytracer_tst.dir/build.make
 test/Raytracer_tst: src/libRaytracer_lib.a
 test/Raytracer_tst: lib/libgtestd.a
 test/Raytracer_tst: test/CMakeFiles/Raytracer_tst.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Raytracer_tst"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Raytracer_tst.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Raytracer_tst"
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Raytracer_tst.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/Raytracer_tst.dir/build: test/Raytracer_tst
 .PHONY : test/CMakeFiles/Raytracer_tst.dir/build
 
 test/CMakeFiles/Raytracer_tst.dir/clean:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test && $(CMAKE_COMMAND) -P CMakeFiles/Raytracer_tst.dir/cmake_clean.cmake
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test && $(CMAKE_COMMAND) -P CMakeFiles/Raytracer_tst.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/Raytracer_tst.dir/clean
 
 test/CMakeFiles/Raytracer_tst.dir/depend:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Matthijs/CLionProjects/Raytracer /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile/test/CMakeFiles/Raytracer_tst.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/git/raytracer-cpp /mnt/c/git/raytracer-cpp/test /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile/test/CMakeFiles/Raytracer_tst.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/Raytracer_tst.dir/depend
 

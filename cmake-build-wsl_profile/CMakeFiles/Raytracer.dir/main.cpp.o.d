@@ -1,5 +1,4 @@
-CMakeFiles/Raytracer.dir/main.cpp.o: \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/main.cpp \
+CMakeFiles/Raytracer.dir/main.cpp.o: /mnt/c/git/raytracer-cpp/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -136,10 +135,10 @@ CMakeFiles/Raytracer.dir/main.cpp.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.h \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.h \
- /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.h \
- /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_construct.h \
+ /mnt/c/git/raytracer-cpp/src/Canvas.h \
+ /mnt/c/git/raytracer-cpp/src/Color.h \
+ /mnt/c/git/raytracer-cpp/src/Tuple.h /usr/include/c++/9/vector \
+ /usr/include/c++/9/bits/stl_construct.h \
  /usr/include/c++/9/bits/stl_uninitialized.h \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc

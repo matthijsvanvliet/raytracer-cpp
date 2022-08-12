@@ -1,4 +1,5 @@
 #include "Matrix4.h"
+#include "Helper.h"
 #include <iostream>
 #include <cstring>
 
@@ -73,7 +74,7 @@ Matrix3 Matrix4::Submatrix(const unsigned int row, const unsigned int column) co
 {
     Matrix3 m;
 
-    std::vector<double> v;
+    std::vector<float> v;
 
     for (int x = 0; x < MaxLength; x++)
     {
@@ -130,17 +131,18 @@ Matrix3 Matrix4::Submatrix(const unsigned int row, const unsigned int column) co
     return m;
 }
 
-double Matrix4::Minor(const unsigned int row, const unsigned int column) const
+float Matrix4::Minor(const unsigned int row, const unsigned int column) const
 {
     return Submatrix(row, column).Determinant();
 }
 
-double Matrix4::Cofactor(const unsigned int row, const unsigned int column) const
+float Matrix4::Cofactor(const unsigned int row, const unsigned int column) const
 {
     return (row + column) % 2 == 0 ? Minor(row, column) : Minor(row, column) * -1;
 }
 
-double Matrix4::Determinant() const
+// Look for fast rounding up to 5 decimals
+float Matrix4::Determinant() const
 {
     double det;
     for (int col = 0; col < MaxLength; col++)
@@ -148,6 +150,41 @@ double Matrix4::Determinant() const
         det += (*this)(0, col) * Cofactor(0, col);
     }
     return det;
+}
+
+bool Matrix4::Invertible() const
+{
+    return Determinant() != 0;
+}
+
+Matrix4 Matrix4::Invert() const
+{
+    if (!Invertible())
+    {
+        throw "Matrix is not invertible";
+    }
+
+    Matrix4 m;
+    for (int row = 0; row < MaxLength; row++)
+    {
+        for (int col = 0; col < MaxLength; col++)
+        {
+            float c = Cofactor(row, col);
+
+            m(col, row) = c / Determinant();
+        }
+    }
+
+    return m;
+}
+
+float Matrix4::GetInverseElement(float cofactor, float determinant) const
+{
+    float n = cofactor / determinant;
+    int m = n * 100000;
+    float r = m / 100000.0f;
+    std::cout << "N= " << n << std::endl;
+    return r;
 }
 
 

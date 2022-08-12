@@ -57,10 +57,10 @@ RM = /home/matthijs/cmake-3.21.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer
+CMAKE_SOURCE_DIR = /mnt/c/git/raytracer-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/git/raytracer-cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock//CMakeFiles/progress.marks
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/git/raytracer-cpp/cmake-build-debug/CMakeFiles /mnt/c/git/raytracer-cpp/cmake-build-debug/test/lib/googlemock//CMakeFiles/progress.marks
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/git/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/clean
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/preinstall
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/preinstall
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/lib/googlemock/CMakeFiles/gmock_main.dir/rule:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/CMakeFiles/gmock_main.dir/rule
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/CMakeFiles/gmock_main.dir/rule
 .PHONY : test/lib/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ gmock_main: test/lib/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # fast build rule for target.
 gmock_main/fast:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/build
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 # Convenience name for target.
 test/lib/googlemock/CMakeFiles/gmock.dir/rule:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/CMakeFiles/gmock.dir/rule
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/CMakeFiles/gmock.dir/rule
 .PHONY : test/lib/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ gmock: test/lib/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/build
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -194,7 +194,7 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -202,7 +202,7 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -210,7 +210,7 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -218,7 +218,7 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -226,7 +226,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -234,7 +234,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/git/raytracer-cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
