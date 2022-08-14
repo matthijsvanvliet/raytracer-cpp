@@ -1,4 +1,4 @@
-C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile && /home/matthijs/cmake-3.21.7/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/git/raytracer-cpp -B /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile; exitcode=$?; sleep 0.001; (exit $exitcode)"
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile && /home/matthijs/cmake-3.21.7/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer -B /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile; exitcode=$?; sleep 0.001; (exit $exitcode)"
 CMake Deprecation Warning at test/lib/CMakeLists.txt:4 (cmake_minimum_required):
   Compatibility with CMake < 2.8.12 will be removed from a future version of
   CMake.
@@ -25,4 +25,4 @@ CMake Deprecation Warning at test/lib/googletest/CMakeLists.txt:56 (cmake_minimu
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/git/raytracer-cpp/cmake-build-wsl_profile
+-- Build files have been written to: /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-wsl_profile

@@ -1,8 +1,9 @@
 CMakeFiles/Raytracer.dir/src/Matrix4.cpp.o: \
- /mnt/c/git/raytracer-cpp/src/Matrix4.cpp /usr/include/stdc-predef.h \
- /mnt/c/git/raytracer-cpp/src/Matrix4.h \
- /mnt/c/git/raytracer-cpp/src/Matrix.h /usr/include/c++/9/vector \
- /usr/include/c++/9/bits/stl_algobase.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.cpp \
+ /usr/include/stdc-predef.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.h \
+ /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -42,7 +43,8 @@ CMakeFiles/Raytracer.dir/src/Matrix4.cpp.o: \
  /usr/include/c++/9/bits/stl_bvector.h \
  /usr/include/c++/9/bits/functional_hash.h \
  /usr/include/c++/9/bits/range_access.h \
- /usr/include/c++/9/bits/vector.tcc /mnt/c/git/raytracer-cpp/src/Tuple.h \
+ /usr/include/c++/9/bits/vector.tcc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.h \
  /usr/include/c++/9/string /usr/include/c++/9/bits/stringfwd.h \
  /usr/include/c++/9/bits/char_traits.h /usr/include/c++/9/bits/postypes.h \
  /usr/include/c++/9/cwchar /usr/include/wchar.h \
@@ -126,10 +128,21 @@ CMakeFiles/Raytracer.dir/src/Matrix4.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/9/bits/basic_string.tcc \
- /mnt/c/git/raytracer-cpp/src/Matrix3.h \
- /mnt/c/git/raytracer-cpp/src/Matrix2.h /usr/include/c++/9/iostream \
- /usr/include/c++/9/ostream /usr/include/c++/9/ios \
- /usr/include/c++/9/bits/ios_base.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix3.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix2.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Helper.h \
+ /usr/include/c++/9/math.h /usr/include/c++/9/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/9/iostream /usr/include/c++/9/ostream \
+ /usr/include/c++/9/ios /usr/include/c++/9/bits/ios_base.h \
  /usr/include/c++/9/bits/locale_classes.h \
  /usr/include/c++/9/bits/locale_classes.tcc \
  /usr/include/c++/9/system_error \

@@ -13,5 +13,4 @@ public:
     float Determinant() const;
 };
 
-
 #endif /* MATRIX3_H */

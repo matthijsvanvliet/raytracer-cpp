@@ -1,5 +1,10 @@
-CMakeFiles/Raytracer.dir/main.cpp.o: /mnt/c/git/raytracer-cpp/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
+CMakeFiles/Raytracer.dir/main.cpp.o: \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/main.cpp \
+ /usr/include/stdc-predef.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.h \
+ /usr/include/c++/9/string \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -8,10 +13,24 @@ CMakeFiles/Raytracer.dir/main.cpp.o: /mnt/c/git/raytracer-cpp/main.cpp \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h \
- /usr/include/c++/9/ostream /usr/include/c++/9/ios \
- /usr/include/c++/9/iosfwd /usr/include/c++/9/bits/stringfwd.h \
- /usr/include/c++/9/bits/memoryfwd.h /usr/include/c++/9/bits/postypes.h \
- /usr/include/c++/9/cwchar /usr/include/wchar.h \
+ /usr/include/c++/9/bits/stringfwd.h /usr/include/c++/9/bits/memoryfwd.h \
+ /usr/include/c++/9/bits/char_traits.h \
+ /usr/include/c++/9/bits/stl_algobase.h \
+ /usr/include/c++/9/bits/functexcept.h \
+ /usr/include/c++/9/bits/exception_defines.h \
+ /usr/include/c++/9/bits/cpp_type_traits.h \
+ /usr/include/c++/9/ext/type_traits.h \
+ /usr/include/c++/9/ext/numeric_traits.h \
+ /usr/include/c++/9/bits/stl_pair.h /usr/include/c++/9/bits/move.h \
+ /usr/include/c++/9/bits/concept_check.h /usr/include/c++/9/type_traits \
+ /usr/include/c++/9/bits/stl_iterator_base_types.h \
+ /usr/include/c++/9/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/9/debug/assertions.h \
+ /usr/include/c++/9/bits/stl_iterator.h \
+ /usr/include/c++/9/bits/ptr_traits.h /usr/include/c++/9/debug/debug.h \
+ /usr/include/c++/9/bits/predefined_ops.h \
+ /usr/include/c++/9/bits/postypes.h /usr/include/c++/9/cwchar \
+ /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
@@ -25,26 +44,7 @@ CMakeFiles/Raytracer.dir/main.cpp.o: /mnt/c/git/raytracer-cpp/main.cpp \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/9/exception /usr/include/c++/9/bits/exception.h \
- /usr/include/c++/9/bits/exception_ptr.h \
- /usr/include/c++/9/bits/exception_defines.h \
- /usr/include/c++/9/bits/cxxabi_init_exception.h \
- /usr/include/c++/9/typeinfo /usr/include/c++/9/bits/hash_bytes.h \
- /usr/include/c++/9/new /usr/include/c++/9/bits/nested_exception.h \
- /usr/include/c++/9/bits/move.h /usr/include/c++/9/bits/concept_check.h \
- /usr/include/c++/9/type_traits /usr/include/c++/9/bits/char_traits.h \
- /usr/include/c++/9/bits/stl_algobase.h \
- /usr/include/c++/9/bits/functexcept.h \
- /usr/include/c++/9/bits/cpp_type_traits.h \
- /usr/include/c++/9/ext/type_traits.h \
- /usr/include/c++/9/ext/numeric_traits.h \
- /usr/include/c++/9/bits/stl_pair.h \
- /usr/include/c++/9/bits/stl_iterator_base_types.h \
- /usr/include/c++/9/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/9/debug/assertions.h \
- /usr/include/c++/9/bits/stl_iterator.h \
- /usr/include/c++/9/bits/ptr_traits.h /usr/include/c++/9/debug/debug.h \
- /usr/include/c++/9/bits/predefined_ops.h /usr/include/c++/9/cstdint \
+ /usr/include/c++/9/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -52,13 +52,29 @@ CMakeFiles/Raytracer.dir/main.cpp.o: /mnt/c/git/raytracer-cpp/main.cpp \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/9/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h \
+ /usr/include/c++/9/ext/new_allocator.h /usr/include/c++/9/new \
+ /usr/include/c++/9/exception /usr/include/c++/9/bits/exception.h \
+ /usr/include/c++/9/bits/exception_ptr.h \
+ /usr/include/c++/9/bits/cxxabi_init_exception.h \
+ /usr/include/c++/9/typeinfo /usr/include/c++/9/bits/hash_bytes.h \
+ /usr/include/c++/9/bits/nested_exception.h \
  /usr/include/c++/9/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
  /usr/include/c++/9/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/9/cctype \
- /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/9/iosfwd \
+ /usr/include/c++/9/cctype /usr/include/ctype.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/c++/9/bits/ios_base.h /usr/include/c++/9/ext/atomicity.h \
+ /usr/include/c++/9/bits/ostream_insert.h \
+ /usr/include/c++/9/bits/cxxabi_forced.h \
+ /usr/include/c++/9/bits/stl_function.h \
+ /usr/include/c++/9/backward/binders.h \
+ /usr/include/c++/9/bits/range_access.h \
+ /usr/include/c++/9/initializer_list \
+ /usr/include/c++/9/bits/basic_string.h \
+ /usr/include/c++/9/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
@@ -82,17 +98,6 @@ CMakeFiles/Raytracer.dir/main.cpp.o: /mnt/c/git/raytracer-cpp/main.cpp \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h \
- /usr/include/c++/9/bits/locale_classes.h /usr/include/c++/9/string \
- /usr/include/c++/9/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h \
- /usr/include/c++/9/ext/new_allocator.h \
- /usr/include/c++/9/bits/ostream_insert.h \
- /usr/include/c++/9/bits/cxxabi_forced.h \
- /usr/include/c++/9/bits/stl_function.h \
- /usr/include/c++/9/backward/binders.h \
- /usr/include/c++/9/bits/range_access.h \
- /usr/include/c++/9/initializer_list \
- /usr/include/c++/9/bits/basic_string.h \
  /usr/include/c++/9/ext/alloc_traits.h \
  /usr/include/c++/9/bits/alloc_traits.h \
  /usr/include/c++/9/ext/string_conversions.h /usr/include/c++/9/cstdlib \
@@ -119,26 +124,22 @@ CMakeFiles/Raytracer.dir/main.cpp.o: /mnt/c/git/raytracer-cpp/main.cpp \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/9/bits/functional_hash.h \
- /usr/include/c++/9/bits/basic_string.tcc \
- /usr/include/c++/9/bits/locale_classes.tcc \
- /usr/include/c++/9/system_error \
- /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
- /usr/include/c++/9/stdexcept /usr/include/c++/9/streambuf \
- /usr/include/c++/9/bits/streambuf.tcc \
- /usr/include/c++/9/bits/basic_ios.h \
- /usr/include/c++/9/bits/locale_facets.h /usr/include/c++/9/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h \
- /usr/include/c++/9/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
- /usr/include/c++/9/bits/locale_facets.tcc \
- /usr/include/c++/9/bits/basic_ios.tcc \
- /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
- /usr/include/c++/9/bits/istream.tcc \
- /mnt/c/git/raytracer-cpp/src/Canvas.h \
- /mnt/c/git/raytracer-cpp/src/Color.h \
- /mnt/c/git/raytracer-cpp/src/Tuple.h /usr/include/c++/9/vector \
+ /usr/include/c++/9/bits/basic_string.tcc /usr/include/c++/9/vector \
  /usr/include/c++/9/bits/stl_construct.h \
  /usr/include/c++/9/bits/stl_uninitialized.h \
  /usr/include/c++/9/bits/stl_vector.h \
- /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc
+ /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix3.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix2.h \
+ /usr/include/c++/9/math.h /usr/include/c++/9/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h

@@ -1,8 +1,10 @@
 src/CMakeFiles/Raytracer_run.dir/Canvas.cpp.o: \
- /mnt/c/git/raytracer-cpp/src/Canvas.cpp /usr/include/stdc-predef.h \
- /mnt/c/git/raytracer-cpp/src/Canvas.h \
- /mnt/c/git/raytracer-cpp/src/Color.h \
- /mnt/c/git/raytracer-cpp/src/Tuple.h /usr/include/c++/9/string \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.cpp \
+ /usr/include/stdc-predef.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.h \
+ /usr/include/c++/9/string \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

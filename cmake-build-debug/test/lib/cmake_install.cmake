@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/git/raytracer-cpp/test/lib
+# Install script for directory: /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/c/git/raytracer-cpp/cmake-build-debug/test/lib/googlemock/cmake_install.cmake")
+  include("/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/cmake_install.cmake")
 
 endif()
 

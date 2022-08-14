@@ -1,6 +1,7 @@
 src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o: \
- /mnt/c/git/raytracer-cpp/src/Tuple.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/9/math.h /usr/include/c++/9/cmath \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/9/math.h \
+ /usr/include/c++/9/cmath \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -146,5 +147,6 @@ src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o: \
  /usr/include/c++/9/bits/locale_facets.tcc \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
- /usr/include/c++/9/bits/istream.tcc /mnt/c/git/raytracer-cpp/src/Tuple.h \
- /mnt/c/git/raytracer-cpp/src/Helper.h
+ /usr/include/c++/9/bits/istream.tcc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Helper.h

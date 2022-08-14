@@ -20,8 +20,8 @@ public:
     Canvas(int width, int height);
     int GetWidth() const;
     int GetHeight() const;
-    Color GetPixel(int x, int y) const;
-    void WritePixel(int x, int y, const Color& c);
+    Color GetPixel(unsigned int x, unsigned int y) const;
+    void WritePixel(unsigned int x, unsigned int y, const Color& c);
     std::string PPMHeader() const;
     std::string PPMPixelData() const;
     std::string CanvasToPPM() const;

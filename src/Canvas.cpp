@@ -19,12 +19,12 @@ int Canvas::GetHeight() const
     return height_;
 }
 
-Color Canvas::GetPixel(int x, int y) const
+Color Canvas::GetPixel(unsigned int x, unsigned int y) const
 {
     return pixel[y * width_ + x];
 }
 
-void Canvas::WritePixel(int x, int y, const Color& c)
+void Canvas::WritePixel(unsigned int x, unsigned int y, const Color& c)
 {
     pixel[y * width_ + x] = c;
 }

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o.d"
   "CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o"
   "CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o.d"
+  "CMakeFiles/Raytracer_tst.dir/TransformationsTest.cpp.o"
+  "CMakeFiles/Raytracer_tst.dir/TransformationsTest.cpp.o.d"
   "CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o"
   "CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o.d"
   "Raytracer_tst"

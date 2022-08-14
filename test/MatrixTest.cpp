@@ -3,8 +3,6 @@
 #include "Matrix2.h"
 #include "Matrix3.h"
 
-#include <iostream>
-
 TEST(MatrixTest, ConstructingAndInspectingA4x4Matrix)
 {
     Matrix4 m;
@@ -374,3 +372,4 @@ TEST(MatrixTest, MultiplyAProductByItsInverse)
 
     EXPECT_EQ(C * B.Invert(), A);
 }
+

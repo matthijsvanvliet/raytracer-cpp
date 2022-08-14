@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/git/raytracer-cpp/src -isystem /mnt/c/git/raytracer-cpp/test/lib/googletest/include -isystem /mnt/c/git/raytracer-cpp/test/lib/googletest
+CXX_INCLUDES = -I/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src -isystem /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include -isystem /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest
 
 CXX_FLAGS = -g -std=gnu++14
 

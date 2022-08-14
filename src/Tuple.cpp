@@ -82,12 +82,12 @@ Tuple Tuple::Abs()
 
 Tuple Vector(float x, float y, float z)
 {
-    return { x, y, z, 0 };
+    return Tuple(x, y, z, 0);
 }
 
 Tuple Point(float x, float y, float z)
 {
-    return { x, y, z, 1 };
+    return Tuple(x, y, z, 1);
 }
 
 //Vector::Vector(float x, float y, float z) : Tuple(x, y, z, 0)

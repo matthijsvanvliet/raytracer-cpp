@@ -1,7 +1,7 @@
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest-all.cc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-all.cc \
  /usr/include/stdc-predef.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest.h \
  /usr/include/c++/9/cstddef \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -157,8 +157,8 @@ test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/vector \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/gtest-internal.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/gtest-port.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/gtest-internal.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/gtest-port.h \
  /usr/include/c++/9/stdlib.h /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
@@ -182,8 +182,8 @@ test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: \
  /usr/include/libintl.h /usr/include/c++/9/bits/codecvt.h \
  /usr/include/c++/9/bits/locale_facets_nonio.tcc \
  /usr/include/c++/9/bits/locale_conv.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/custom/gtest-port.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/gtest-port-arch.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/custom/gtest-port.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/gtest-port-arch.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -218,29 +218,29 @@ test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: \
  /usr/include/c++/9/bits/stl_map.h /usr/include/c++/9/bits/stl_multimap.h \
  /usr/include/c++/9/bits/erase_if.h /usr/include/c++/9/set \
  /usr/include/c++/9/bits/stl_set.h /usr/include/c++/9/bits/stl_multiset.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest-message.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/gtest-filepath.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/gtest-string.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/gtest-type-util.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-message.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/gtest-filepath.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/gtest-string.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/gtest-type-util.h \
  /usr/include/c++/9/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/cxxabi_tweaks.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest-death-test.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/gtest-death-test-internal.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest-matchers.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest-printers.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-death-test.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/gtest-death-test-internal.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-matchers.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-printers.h \
  /usr/include/c++/9/functional /usr/include/c++/9/bits/std_function.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/custom/gtest-printers.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest-param-test.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/custom/gtest-printers.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-param-test.h \
  /usr/include/c++/9/iterator /usr/include/c++/9/bits/stream_iterator.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/gtest-param-util.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/gtest-param-util.h \
  /usr/include/c++/9/cassert /usr/include/assert.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest-test-part.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest_prod.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest-typed-test.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest_pred_impl.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest.cc \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/internal/custom/gtest.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/include/gtest/gtest-spi.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-test-part.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest_prod.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-typed-test.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest_pred_impl.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest.cc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/internal/custom/gtest.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-spi.h \
  /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
  /usr/include/c++/9/bits/algorithmfwd.h \
  /usr/include/c++/9/bits/stl_heap.h \
@@ -286,16 +286,16 @@ test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/netdb.h \
  /usr/include/rpc/netdb.h /usr/include/x86_64-linux-gnu/bits/netdb.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest-internal-inl.h \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest-death-test.cc \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest-filepath.cc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-internal-inl.h \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-death-test.cc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-filepath.cc \
  /usr/include/c++/9/climits \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest-matchers.cc \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest-port.cc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-matchers.cc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-port.cc \
  /usr/include/c++/9/fstream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++io.h \
  /usr/include/c++/9/bits/fstream.tcc \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest-printers.cc \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest-test-part.cc \
- /mnt/c/git/raytracer-cpp/test/lib/googletest/src/gtest-typed-test.cc
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-printers.cc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-test-part.cc \
+ /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-typed-test.cc
