@@ -1,2 +1,2 @@
-/usr/bin/ar qc libRaytracer_lib.a CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o CMakeFiles/Raytracer_lib.dir/Color.cpp.o CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o
-/usr/bin/ranlib libRaytracer_lib.a
+/usr/bin/ar qc ../lib/libRaytracer_lib.a CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o CMakeFiles/Raytracer_lib.dir/Color.cpp.o CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o CMakeFiles/Raytracer_lib.dir/Ray.cpp.o CMakeFiles/Raytracer_lib.dir/Shape.cpp.o CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o
+/usr/bin/ranlib ../lib/libRaytracer_lib.a

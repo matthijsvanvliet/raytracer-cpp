@@ -77,7 +77,7 @@ float Matrix3::Cofactor(const unsigned int row, const unsigned int column) const
 
 float Matrix3::Determinant() const
 {
-    double det;
+    double det = 0;
     for (int col = 0; col < MaxLength; col++)
     {
         det += (*this)(0, col) * Cofactor(0, col);

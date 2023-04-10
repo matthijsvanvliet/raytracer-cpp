@@ -1,2 +1,1 @@
-/usr/bin/ar qc ../../../lib/libgmock_maind.a CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
-/usr/bin/ranlib ../../../lib/libgmock_maind.a
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libgmock_main.so.1.12.1 -o ../../../lib/libgmock_main.so.1.12.1 CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib: ../../../lib/libgmock.so.1.12.1 ../../../lib/libgtest.so.1.12.1 

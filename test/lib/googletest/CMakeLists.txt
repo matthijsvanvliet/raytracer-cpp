@@ -46,14 +46,9 @@ endif()
 
 # Project version:
 
-if (CMAKE_VERSION VERSION_LESS 3.0)
-  project(gtest CXX C)
-  set(PROJECT_VERSION ${GOOGLETEST_VERSION})
-else()
-  cmake_policy(SET CMP0048 NEW)
-  project(gtest VERSION ${GOOGLETEST_VERSION} LANGUAGES CXX C)
-endif()
-cmake_minimum_required(VERSION 2.6.4)
+cmake_minimum_required(VERSION 3.5)
+cmake_policy(SET CMP0048 NEW)
+project(gtest VERSION ${GOOGLETEST_VERSION} LANGUAGES CXX C)
 
 if (POLICY CMP0063) # Visibility
   cmake_policy(SET CMP0063 NEW)
@@ -92,10 +87,13 @@ include(cmake/internal_utils.cmake)
 
 config_compiler_and_linker()  # Defined in internal_utils.cmake.
 
+# Needed to set the namespace for both the export targets and the
+# alias libraries
+set(cmake_package_name GTest CACHE INTERNAL "")
+
 # Create the CMake package file descriptors.
 if (INSTALL_GTEST)
   include(CMakePackageConfigHelpers)
-  set(cmake_package_name GTest)
   set(targets_export_name ${cmake_package_name}Targets CACHE INTERNAL "")
   set(generated_dir "${CMAKE_CURRENT_BINARY_DIR}/generated" CACHE INTERNAL "")
   set(cmake_files_install_dir "${CMAKE_INSTALL_LIBDIR}/cmake/${cmake_package_name}")
@@ -127,18 +125,38 @@ include_directories(${gtest_build_include_dirs})
 # aggressive about warnings.
 cxx_library(gtest "${cxx_strict}" src/gtest-all.cc)
 set_target_properties(gtest PROPERTIES VERSION ${GOOGLETEST_VERSION})
+if(GTEST_HAS_ABSL)
+  target_compile_definitions(gtest PUBLIC GTEST_HAS_ABSL=1)
+  target_link_libraries(gtest PUBLIC
+    absl::failure_signal_handler
+    absl::stacktrace
+    absl::symbolize
+    absl::flags_parse
+    absl::flags_reflection
+    absl::flags_usage
+    absl::strings
+    absl::any
+    absl::optional
+    absl::variant
+    re2::re2
+  )
+endif()
 cxx_library(gtest_main "${cxx_strict}" src/gtest_main.cc)
 set_target_properties(gtest_main PROPERTIES VERSION ${GOOGLETEST_VERSION})
 # If the CMake version supports it, attach header directory information
 # to the targets for when we are part of a parent build (ie being pulled
 # in via add_subdirectory() rather than being a standalone build).
 if (DEFINED CMAKE_VERSION AND NOT "${CMAKE_VERSION}" VERSION_LESS "2.8.11")
+  string(REPLACE ";" "$<SEMICOLON>" dirs "${gtest_build_include_dirs}")
   target_include_directories(gtest SYSTEM INTERFACE
-    "$<BUILD_INTERFACE:${gtest_build_include_dirs}>"
+    "$<BUILD_INTERFACE:${dirs}>"
     "$<INSTALL_INTERFACE:$<INSTALL_PREFIX>/${CMAKE_INSTALL_INCLUDEDIR}>")
   target_include_directories(gtest_main SYSTEM INTERFACE
-    "$<BUILD_INTERFACE:${gtest_build_include_dirs}>"
+    "$<BUILD_INTERFACE:${dirs}>"
     "$<INSTALL_INTERFACE:$<INSTALL_PREFIX>/${CMAKE_INSTALL_INCLUDEDIR}>")
+endif()
+if(CMAKE_SYSTEM_NAME MATCHES "QNX")
+  target_link_libraries(gtest PUBLIC regex)
 endif()
 target_link_libraries(gtest_main PUBLIC gtest)
 
@@ -196,21 +214,21 @@ if (gtest_build_tests)
   cxx_test(gtest_no_test_unittest gtest)
   cxx_test(googletest-options-test gtest_main)
   cxx_test(googletest-param-test-test gtest
-          test/googletest-param-test2-test.cc)
+    test/googletest-param-test2-test.cc)
   cxx_test(googletest-port-test gtest_main)
   cxx_test(gtest_pred_impl_unittest gtest_main)
   cxx_test(gtest_premature_exit_test gtest
-          test/gtest_premature_exit_test.cc)
+    test/gtest_premature_exit_test.cc)
   cxx_test(googletest-printers-test gtest_main)
   cxx_test(gtest_prod_test gtest_main
-          test/production.cc)
+    test/production.cc)
   cxx_test(gtest_repeat_test gtest)
   cxx_test(gtest_sole_header_test gtest_main)
   cxx_test(gtest_stress_test gtest)
   cxx_test(googletest-test-part-test gtest_main)
   cxx_test(gtest_throw_on_failure_ex_test gtest)
   cxx_test(gtest-typed-test_test gtest_main
-          test/gtest-typed-test2_test.cc)
+    test/gtest-typed-test2_test.cc)
   cxx_test(gtest_unittest gtest_main)
   cxx_test(gtest-unittest-api_test gtest)
   cxx_test(gtest_skip_in_environment_setup_test gtest_main)
@@ -222,12 +240,12 @@ if (gtest_build_tests)
   # MSVC 7.1 does not support STL with exceptions disabled.
   if (NOT MSVC OR MSVC_VERSION GREATER 1310)
     cxx_library(gtest_no_exception "${cxx_no_exception}"
-            src/gtest-all.cc)
+      src/gtest-all.cc)
     cxx_library(gtest_main_no_exception "${cxx_no_exception}"
-            src/gtest-all.cc src/gtest_main.cc)
+      src/gtest-all.cc src/gtest_main.cc)
   endif()
   cxx_library(gtest_main_no_rtti "${cxx_no_rtti}"
-          src/gtest-all.cc src/gtest_main.cc)
+    src/gtest-all.cc src/gtest_main.cc)
 
   cxx_test_with_flags(gtest-death-test_ex_nocatch_test
     "${cxx_exception} -DGTEST_ENABLE_CATCH_EXCEPTIONS_=0"
@@ -240,7 +258,7 @@ if (gtest_build_tests)
     gtest_main_no_rtti test/gtest_unittest.cc)
 
   cxx_shared_library(gtest_dll "${cxx_default}"
-          src/gtest-all.cc src/gtest_main.cc)
+    src/gtest-all.cc src/gtest_main.cc)
 
   cxx_executable_with_flags(gtest_dll_test_ "${cxx_default}"
     gtest_dll test/gtest_all_test.cc)
@@ -263,14 +281,14 @@ if (gtest_build_tests)
       googletest-catch-exceptions-no-ex-test_
       "${cxx_no_exception}"
       gtest_main_no_exception
-            test/googletest-catch-exceptions-test_.cc)
+      test/googletest-catch-exceptions-test_.cc)
   endif()
 
   cxx_executable_with_flags(
     googletest-catch-exceptions-ex-test_
     "${cxx_exception}"
     gtest_main
-          test/googletest-catch-exceptions-test_.cc)
+    test/googletest-catch-exceptions-test_.cc)
   py_test(googletest-catch-exceptions-test)
 
   cxx_executable(googletest-color-test_ test gtest)

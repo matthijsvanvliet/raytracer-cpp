@@ -11,213 +11,259 @@
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/strip">
+			<Target title="raytracer_code">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libraytracer_code.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer_code"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/local">
+			<Target title="raytracer_code/fast">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libraytracer_code.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer_code/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install">
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
-				<Option type="4"/>
+			<Target title="raytracer_main">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin/raytracer_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer_main"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="list_install_components">
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
-				<Option type="4"/>
+			<Target title="raytracer_main/fast">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin/raytracer_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracer_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Raytracer">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Raytracer" prefix_auto="0" extension_auto="0"/>
+			<Target title="rebuild_cache">
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Raytracer"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Raytracer/fast">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Raytracer" prefix_auto="0" extension_auto="0"/>
+			<Target title="list_install_components">
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Raytracer/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Raytracer_lib">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/libRaytracer_lib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+			<Target title="install">
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Raytracer_lib"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Raytracer_lib/fast">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/libRaytracer_lib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+			<Target title="install/local">
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Raytracer_lib/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Raytracer_run">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Raytracer_run" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src"/>
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin/Raytracer_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Raytracer_run"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Raytracer_run"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Raytracer_run/fast">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Raytracer_run" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src"/>
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin/Raytracer_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Raytracer_run/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Raytracer_run/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Raytracer_lib">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libRaytracer_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Raytracer_lib"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Raytracer_lib/fast">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libRaytracer_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Raytracer_lib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Raytracer_tst">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Raytracer_tst" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test"/>
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin/Raytracer_tst" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -225,24 +271,24 @@
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Raytracer_tst"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Raytracer_tst"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Raytracer_tst/fast">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Raytracer_tst" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test"/>
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin/Raytracer_tst" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -250,299 +296,352 @@
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Raytracer_tst/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gmock_main">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include"/>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock"/>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gmock_main/fast">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include"/>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock"/>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
-					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Raytracer_tst/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgmock.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgmock.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gtest_main">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest"/>
+			<Target title="gmock_main">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgmock_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gtest_main/fast">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest"/>
+			<Target title="gmock_main/fast">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgmock_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgtest.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgtest.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/lib/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/main.cpp">
-			<Option target="Raytracer"/>
+			<Option target="raytracer_main"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.cpp">
-			<Option target="Raytracer"/>
-			<Option target="Raytracer_lib"/>
+			<Option target="raytracer_code"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.h">
-			<Option target="Raytracer_lib"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.cpp">
-			<Option target="Raytracer"/>
-			<Option target="Raytracer_lib"/>
+			<Option target="raytracer_code"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.h">
-			<Option target="Raytracer_lib"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Helper.h">
-			<Option target="Raytracer_lib"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersection.cpp">
+			<Option target="raytracer_code"/>
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersection.h">
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersections.cpp">
+			<Option target="raytracer_code"/>
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersections.h">
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.cpp">
-			<Option target="Raytracer"/>
-			<Option target="Raytracer_lib"/>
+			<Option target="raytracer_code"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.h">
-			<Option target="Raytracer_lib"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix2.cpp">
-			<Option target="Raytracer"/>
-			<Option target="Raytracer_lib"/>
+			<Option target="raytracer_code"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix2.h">
-			<Option target="Raytracer_lib"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix3.cpp">
-			<Option target="Raytracer"/>
-			<Option target="Raytracer_lib"/>
+			<Option target="raytracer_code"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix3.h">
-			<Option target="Raytracer_lib"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.cpp">
-			<Option target="Raytracer"/>
-			<Option target="Raytracer_lib"/>
+			<Option target="raytracer_code"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.h">
-			<Option target="Raytracer_lib"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Ray.cpp">
+			<Option target="raytracer_code"/>
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Ray.h">
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Shape.cpp">
+			<Option target="raytracer_code"/>
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Shape.h">
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Sphere.cpp">
+			<Option target="raytracer_code"/>
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Sphere.h">
+			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.cpp">
-			<Option target="Raytracer"/>
-			<Option target="Raytracer_lib"/>
+			<Option target="raytracer_code"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.h">
-			<Option target="Raytracer_lib"/>
 			<Option target="Raytracer_run"/>
+			<Option target="Raytracer_lib"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/AllTests.cpp">
 			<Option target="Raytracer_tst"/>
@@ -550,7 +649,16 @@
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/CanvasTest.cpp">
 			<Option target="Raytracer_tst"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/IntersectionTest.cpp">
+			<Option target="Raytracer_tst"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/MatrixTest.cpp">
+			<Option target="Raytracer_tst"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/RaysTest.cpp">
+			<Option target="Raytracer_tst"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/SpheresTest.cpp">
 			<Option target="Raytracer_tst"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/TransformationsTest.cpp">
@@ -568,10 +676,10 @@
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include/gmock/gmock-function-mocker.h">
 			<Option target="Raytracer_tst"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include/gmock/gmock-generated-actions.h">
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include/gmock/gmock-matchers.h">
 			<Option target="Raytracer_tst"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include/gmock/gmock-matchers.h">
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include/gmock/gmock-more-actions.h">
 			<Option target="Raytracer_tst"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include/gmock/gmock-more-matchers.h">
@@ -610,7 +718,13 @@
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/test/gmock-matchers_test.h">
+			<Option target="Raytracer_tst"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/test/gmock_link_test.h">
+			<Option target="Raytracer_tst"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-assertion-result.h">
 			<Option target="Raytracer_tst"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include/gtest/gtest-death-test.h">

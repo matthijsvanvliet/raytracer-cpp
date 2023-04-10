@@ -1,2 +1,1 @@
-/usr/bin/ar qc ../../../lib/libgtestd.a CMakeFiles/gtest.dir/src/gtest-all.cc.o
-/usr/bin/ranlib ../../../lib/libgtestd.a
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libgtest.so.1.12.1 -o ../../../lib/libgtest.so.1.12.1 CMakeFiles/gtest.dir/src/gtest-all.cc.o 
