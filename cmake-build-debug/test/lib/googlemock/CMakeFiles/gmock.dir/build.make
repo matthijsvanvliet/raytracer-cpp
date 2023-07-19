@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer
+CMAKE_SOURCE_DIR = /mnt/d/git/Overig/raytracer-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include test/lib/googlemock/CMakeFiles/gmock.dir/depend.make
@@ -72,16 +72,16 @@ include test/lib/googlemock/CMakeFiles/gmock.dir/flags.make
 test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: test/lib/googlemock/CMakeFiles/gmock.dir/flags.make
 test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../test/lib/googlemock/src/gmock-all.cc
 test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: test/lib/googlemock/CMakeFiles/gmock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -MF CMakeFiles/gmock.dir/src/gmock-all.cc.o.d -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/src/gmock-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -MF CMakeFiles/gmock.dir/src/gmock-all.cc.o.d -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /mnt/d/git/Overig/raytracer-cpp/test/lib/googlemock/src/gmock-all.cc
 
 test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/test/lib/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/test/lib/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \
@@ -94,9 +94,9 @@ lib/libgmock.so.1.12.1: test/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.c
 lib/libgmock.so.1.12.1: test/lib/googlemock/CMakeFiles/gmock.dir/build.make
 lib/libgmock.so.1.12.1: lib/libgtest.so.1.12.1
 lib/libgmock.so.1.12.1: test/lib/googlemock/CMakeFiles/gmock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../lib/libgmock.so"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libgmock.so.1.12.1 ../../../lib/libgmock.so.1.12.1 ../../../lib/libgmock.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../lib/libgmock.so"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googlemock && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libgmock.so.1.12.1 ../../../lib/libgmock.so.1.12.1 ../../../lib/libgmock.so
 
 lib/libgmock.so: lib/libgmock.so.1.12.1
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libgmock.so
@@ -106,10 +106,10 @@ test/lib/googlemock/CMakeFiles/gmock.dir/build: lib/libgmock.so
 .PHONY : test/lib/googlemock/CMakeFiles/gmock.dir/build
 
 test/lib/googlemock/CMakeFiles/gmock.dir/clean:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
 .PHONY : test/lib/googlemock/CMakeFiles/gmock.dir/clean
 
 test/lib/googlemock/CMakeFiles/gmock.dir/depend:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Matthijs/CLionProjects/Raytracer /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/git/Overig/raytracer-cpp /mnt/d/git/Overig/raytracer-cpp/test/lib/googlemock /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googlemock /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/lib/googlemock/CMakeFiles/gmock.dir/depend
 

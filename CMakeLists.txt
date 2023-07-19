@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 option(BUILD_SHARED_LIBS "Build shared libs?" ON)
 
-add_compile_options(-static-libgcc -static-libstdc++ -ggdb)
+add_compile_options(-std=c++0x -pthread)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS
 
-CXX_INCLUDES = -I/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src -I/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include -I/mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest
+CXX_INCLUDES = -I/mnt/d/git/Overig/raytracer-cpp/src -I/mnt/d/git/Overig/raytracer-cpp/test/lib/googletest/include -I/mnt/d/git/Overig/raytracer-cpp/test/lib/googletest
 
-CXX_FLAGS = -g -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -static-libgcc -static-libstdc++ -ggdb -std=c++14
+CXX_FLAGS = -g -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++0x -pthread -std=c++14
 

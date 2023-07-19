@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer
+CMAKE_SOURCE_DIR = /mnt/d/git/Overig/raytracer-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -173,14 +173,14 @@ test/lib/googletest/clean: test/lib/googletest/CMakeFiles/gtest_main.dir/clean
 CMakeFiles/raytracer_code.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer_code.dir/build.make CMakeFiles/raytracer_code.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer_code.dir/build.make CMakeFiles/raytracer_code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=44,45,46,47,48,49,50,51,52,53,54,55,56 "Built target raytracer_code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=44,45,46,47,48,49,50,51,52,53,54,55,56 "Built target raytracer_code"
 .PHONY : CMakeFiles/raytracer_code.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/raytracer_code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/raytracer_code.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/raytracer_code.dir/rule
 
 # Convenience name for target.
@@ -199,14 +199,14 @@ CMakeFiles/raytracer_code.dir/clean:
 CMakeFiles/raytracer_main.dir/all: CMakeFiles/raytracer_code.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer_main.dir/build.make CMakeFiles/raytracer_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer_main.dir/build.make CMakeFiles/raytracer_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target raytracer_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target raytracer_main"
 .PHONY : CMakeFiles/raytracer_main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/raytracer_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/raytracer_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/raytracer_main.dir/rule
 
 # Convenience name for target.
@@ -225,14 +225,14 @@ CMakeFiles/raytracer_main.dir/clean:
 src/CMakeFiles/Raytracer_run.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_run.dir/build.make src/CMakeFiles/Raytracer_run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target Raytracer_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target Raytracer_run"
 .PHONY : src/CMakeFiles/Raytracer_run.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Raytracer_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Raytracer_run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : src/CMakeFiles/Raytracer_run.dir/rule
 
 # Convenience name for target.
@@ -251,14 +251,14 @@ src/CMakeFiles/Raytracer_run.dir/clean:
 src/CMakeFiles/Raytracer_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Raytracer_lib.dir/build.make src/CMakeFiles/Raytracer_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target Raytracer_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target Raytracer_lib"
 .PHONY : src/CMakeFiles/Raytracer_lib.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Raytracer_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Raytracer_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : src/CMakeFiles/Raytracer_lib.dir/rule
 
 # Convenience name for target.
@@ -278,14 +278,14 @@ test/CMakeFiles/Raytracer_tst.dir/all: src/CMakeFiles/Raytracer_lib.dir/all
 test/CMakeFiles/Raytracer_tst.dir/all: test/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35 "Built target Raytracer_tst"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35 "Built target Raytracer_tst"
 .PHONY : test/CMakeFiles/Raytracer_tst.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/Raytracer_tst.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Raytracer_tst.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : test/CMakeFiles/Raytracer_tst.dir/rule
 
 # Convenience name for target.
@@ -304,14 +304,14 @@ test/CMakeFiles/Raytracer_tst.dir/clean:
 test/lib/googlemock/CMakeFiles/gmock.dir/all: test/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target gmock"
 .PHONY : test/lib/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 test/lib/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : test/lib/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -331,14 +331,14 @@ test/lib/googlemock/CMakeFiles/gmock_main.dir/all: test/lib/googlemock/CMakeFile
 test/lib/googlemock/CMakeFiles/gmock_main.dir/all: test/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/lib/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target gmock_main"
 .PHONY : test/lib/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 test/lib/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : test/lib/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -357,14 +357,14 @@ test/lib/googlemock/CMakeFiles/gmock_main.dir/clean:
 test/lib/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f test/lib/googletest/CMakeFiles/gtest.dir/build.make test/lib/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/lib/googletest/CMakeFiles/gtest.dir/build.make test/lib/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target gtest"
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 test/lib/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -383,14 +383,14 @@ test/lib/googletest/CMakeFiles/gtest.dir/clean:
 test/lib/googletest/CMakeFiles/gtest_main.dir/all: test/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f test/lib/googletest/CMakeFiles/gtest_main.dir/build.make test/lib/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/lib/googletest/CMakeFiles/gtest_main.dir/build.make test/lib/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target gtest_main"
 .PHONY : test/lib/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 test/lib/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/lib/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : test/lib/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

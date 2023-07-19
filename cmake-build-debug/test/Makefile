@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer
+CMAKE_SOURCE_DIR = /mnt/d/git/Overig/raytracer-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test//CMakeFiles/progress.marks
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles 0
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test//CMakeFiles/progress.marks
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/Raytracer_tst.dir/rule:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Raytracer_tst.dir/rule
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Raytracer_tst.dir/rule
 .PHONY : test/CMakeFiles/Raytracer_tst.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ Raytracer_tst: test/CMakeFiles/Raytracer_tst.dir/rule
 
 # fast build rule for target.
 Raytracer_tst/fast:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/build
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/build
 .PHONY : Raytracer_tst/fast
 
 AllTests.o: AllTests.cpp.o
@@ -180,7 +180,7 @@ AllTests.o: AllTests.cpp.o
 
 # target to build an object file
 AllTests.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.o
 .PHONY : AllTests.cpp.o
 
 AllTests.i: AllTests.cpp.i
@@ -188,7 +188,7 @@ AllTests.i: AllTests.cpp.i
 
 # target to preprocess a source file
 AllTests.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.i
 .PHONY : AllTests.cpp.i
 
 AllTests.s: AllTests.cpp.s
@@ -196,7 +196,7 @@ AllTests.s: AllTests.cpp.s
 
 # target to generate assembly for a file
 AllTests.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/AllTests.cpp.s
 .PHONY : AllTests.cpp.s
 
 CanvasTest.o: CanvasTest.cpp.o
@@ -204,7 +204,7 @@ CanvasTest.o: CanvasTest.cpp.o
 
 # target to build an object file
 CanvasTest.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.o
 .PHONY : CanvasTest.cpp.o
 
 CanvasTest.i: CanvasTest.cpp.i
@@ -212,7 +212,7 @@ CanvasTest.i: CanvasTest.cpp.i
 
 # target to preprocess a source file
 CanvasTest.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.i
 .PHONY : CanvasTest.cpp.i
 
 CanvasTest.s: CanvasTest.cpp.s
@@ -220,7 +220,7 @@ CanvasTest.s: CanvasTest.cpp.s
 
 # target to generate assembly for a file
 CanvasTest.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/CanvasTest.cpp.s
 .PHONY : CanvasTest.cpp.s
 
 IntersectionTest.o: IntersectionTest.cpp.o
@@ -228,7 +228,7 @@ IntersectionTest.o: IntersectionTest.cpp.o
 
 # target to build an object file
 IntersectionTest.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/IntersectionTest.cpp.o
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/IntersectionTest.cpp.o
 .PHONY : IntersectionTest.cpp.o
 
 IntersectionTest.i: IntersectionTest.cpp.i
@@ -236,7 +236,7 @@ IntersectionTest.i: IntersectionTest.cpp.i
 
 # target to preprocess a source file
 IntersectionTest.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/IntersectionTest.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/IntersectionTest.cpp.i
 .PHONY : IntersectionTest.cpp.i
 
 IntersectionTest.s: IntersectionTest.cpp.s
@@ -244,7 +244,7 @@ IntersectionTest.s: IntersectionTest.cpp.s
 
 # target to generate assembly for a file
 IntersectionTest.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/IntersectionTest.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/IntersectionTest.cpp.s
 .PHONY : IntersectionTest.cpp.s
 
 MatrixTest.o: MatrixTest.cpp.o
@@ -252,7 +252,7 @@ MatrixTest.o: MatrixTest.cpp.o
 
 # target to build an object file
 MatrixTest.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.o
 .PHONY : MatrixTest.cpp.o
 
 MatrixTest.i: MatrixTest.cpp.i
@@ -260,7 +260,7 @@ MatrixTest.i: MatrixTest.cpp.i
 
 # target to preprocess a source file
 MatrixTest.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.i
 .PHONY : MatrixTest.cpp.i
 
 MatrixTest.s: MatrixTest.cpp.s
@@ -268,7 +268,7 @@ MatrixTest.s: MatrixTest.cpp.s
 
 # target to generate assembly for a file
 MatrixTest.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/MatrixTest.cpp.s
 .PHONY : MatrixTest.cpp.s
 
 RaysTest.o: RaysTest.cpp.o
@@ -276,7 +276,7 @@ RaysTest.o: RaysTest.cpp.o
 
 # target to build an object file
 RaysTest.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/RaysTest.cpp.o
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/RaysTest.cpp.o
 .PHONY : RaysTest.cpp.o
 
 RaysTest.i: RaysTest.cpp.i
@@ -284,7 +284,7 @@ RaysTest.i: RaysTest.cpp.i
 
 # target to preprocess a source file
 RaysTest.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/RaysTest.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/RaysTest.cpp.i
 .PHONY : RaysTest.cpp.i
 
 RaysTest.s: RaysTest.cpp.s
@@ -292,7 +292,7 @@ RaysTest.s: RaysTest.cpp.s
 
 # target to generate assembly for a file
 RaysTest.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/RaysTest.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/RaysTest.cpp.s
 .PHONY : RaysTest.cpp.s
 
 SpheresTest.o: SpheresTest.cpp.o
@@ -300,7 +300,7 @@ SpheresTest.o: SpheresTest.cpp.o
 
 # target to build an object file
 SpheresTest.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/SpheresTest.cpp.o
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/SpheresTest.cpp.o
 .PHONY : SpheresTest.cpp.o
 
 SpheresTest.i: SpheresTest.cpp.i
@@ -308,7 +308,7 @@ SpheresTest.i: SpheresTest.cpp.i
 
 # target to preprocess a source file
 SpheresTest.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/SpheresTest.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/SpheresTest.cpp.i
 .PHONY : SpheresTest.cpp.i
 
 SpheresTest.s: SpheresTest.cpp.s
@@ -316,7 +316,7 @@ SpheresTest.s: SpheresTest.cpp.s
 
 # target to generate assembly for a file
 SpheresTest.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/SpheresTest.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/SpheresTest.cpp.s
 .PHONY : SpheresTest.cpp.s
 
 TransformationsTest.o: TransformationsTest.cpp.o
@@ -324,7 +324,7 @@ TransformationsTest.o: TransformationsTest.cpp.o
 
 # target to build an object file
 TransformationsTest.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TransformationsTest.cpp.o
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TransformationsTest.cpp.o
 .PHONY : TransformationsTest.cpp.o
 
 TransformationsTest.i: TransformationsTest.cpp.i
@@ -332,7 +332,7 @@ TransformationsTest.i: TransformationsTest.cpp.i
 
 # target to preprocess a source file
 TransformationsTest.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TransformationsTest.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TransformationsTest.cpp.i
 .PHONY : TransformationsTest.cpp.i
 
 TransformationsTest.s: TransformationsTest.cpp.s
@@ -340,7 +340,7 @@ TransformationsTest.s: TransformationsTest.cpp.s
 
 # target to generate assembly for a file
 TransformationsTest.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TransformationsTest.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TransformationsTest.cpp.s
 .PHONY : TransformationsTest.cpp.s
 
 TupleTest.o: TupleTest.cpp.o
@@ -348,7 +348,7 @@ TupleTest.o: TupleTest.cpp.o
 
 # target to build an object file
 TupleTest.cpp.o:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.o
 .PHONY : TupleTest.cpp.o
 
 TupleTest.i: TupleTest.cpp.i
@@ -356,7 +356,7 @@ TupleTest.i: TupleTest.cpp.i
 
 # target to preprocess a source file
 TupleTest.cpp.i:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.i
 .PHONY : TupleTest.cpp.i
 
 TupleTest.s: TupleTest.cpp.s
@@ -364,7 +364,7 @@ TupleTest.s: TupleTest.cpp.s
 
 # target to generate assembly for a file
 TupleTest.cpp.s:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Raytracer_tst.dir/build.make test/CMakeFiles/Raytracer_tst.dir/TupleTest.cpp.s
 .PHONY : TupleTest.cpp.s
 
 # Help Target
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

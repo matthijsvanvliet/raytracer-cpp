@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer
+CMAKE_SOURCE_DIR = /mnt/d/git/Overig/raytracer-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include test/lib/googletest/CMakeFiles/gtest.dir/depend.make
@@ -72,16 +72,16 @@ include test/lib/googletest/CMakeFiles/gtest.dir/flags.make
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: test/lib/googletest/CMakeFiles/gtest.dir/flags.make
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: ../test/lib/googletest/src/gtest-all.cc
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: test/lib/googletest/CMakeFiles/gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -MF CMakeFiles/gtest.dir/src/gtest-all.cc.o.d -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -MF CMakeFiles/gtest.dir/src/gtest-all.cc.o.d -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /mnt/d/git/Overig/raytracer-cpp/test/lib/googletest/src/gtest-all.cc
 
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/test/lib/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/test/lib/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -93,9 +93,9 @@ gtest_EXTERNAL_OBJECTS =
 lib/libgtest.so.1.12.1: test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 lib/libgtest.so.1.12.1: test/lib/googletest/CMakeFiles/gtest.dir/build.make
 lib/libgtest.so.1.12.1: test/lib/googletest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../lib/libgtest.so"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libgtest.so.1.12.1 ../../../lib/libgtest.so.1.12.1 ../../../lib/libgtest.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../lib/libgtest.so"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libgtest.so.1.12.1 ../../../lib/libgtest.so.1.12.1 ../../../lib/libgtest.so
 
 lib/libgtest.so: lib/libgtest.so.1.12.1
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libgtest.so
@@ -105,10 +105,10 @@ test/lib/googletest/CMakeFiles/gtest.dir/build: lib/libgtest.so
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/build
 
 test/lib/googletest/CMakeFiles/gtest.dir/clean:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/clean
 
 test/lib/googletest/CMakeFiles/gtest.dir/depend:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Matthijs/CLionProjects/Raytracer /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/git/Overig/raytracer-cpp /mnt/d/git/Overig/raytracer-cpp/test/lib/googletest /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googletest /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/depend
 

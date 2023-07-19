@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src
+CXX_INCLUDES = -I/mnt/d/git/Overig/raytracer-cpp/src
 
-CXX_FLAGS = -g -static-libgcc -static-libstdc++ -ggdb -std=gnu++14
+CXX_FLAGS = -g -std=c++0x -pthread -std=gnu++14
 

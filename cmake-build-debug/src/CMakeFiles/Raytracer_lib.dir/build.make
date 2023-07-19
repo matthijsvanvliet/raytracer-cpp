@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer
+CMAKE_SOURCE_DIR = /mnt/d/git/Overig/raytracer-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Raytracer_lib.dir/depend.make
@@ -72,170 +72,170 @@ include src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o: ../src/Canvas.cpp
 src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Canvas.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Canvas.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Canvas.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.cpp > CMakeFiles/Raytracer_lib.dir/Canvas.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Canvas.cpp > CMakeFiles/Raytracer_lib.dir/Canvas.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Canvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Canvas.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Canvas.cpp -o CMakeFiles/Raytracer_lib.dir/Canvas.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Canvas.cpp -o CMakeFiles/Raytracer_lib.dir/Canvas.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Color.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Color.cpp.o: ../src/Color.cpp
 src/CMakeFiles/Raytracer_lib.dir/Color.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Color.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Color.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Color.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Color.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Color.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Color.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Color.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Color.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Color.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Color.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.cpp > CMakeFiles/Raytracer_lib.dir/Color.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Color.cpp > CMakeFiles/Raytracer_lib.dir/Color.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Color.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Color.cpp -o CMakeFiles/Raytracer_lib.dir/Color.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Color.cpp -o CMakeFiles/Raytracer_lib.dir/Color.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o: ../src/Intersection.cpp
 src/CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Intersection.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Intersection.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Intersection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Intersection.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersection.cpp > CMakeFiles/Raytracer_lib.dir/Intersection.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Intersection.cpp > CMakeFiles/Raytracer_lib.dir/Intersection.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Intersection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Intersection.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersection.cpp -o CMakeFiles/Raytracer_lib.dir/Intersection.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Intersection.cpp -o CMakeFiles/Raytracer_lib.dir/Intersection.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o: ../src/Intersections.cpp
 src/CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersections.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Intersections.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Intersections.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Intersections.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Intersections.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersections.cpp > CMakeFiles/Raytracer_lib.dir/Intersections.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Intersections.cpp > CMakeFiles/Raytracer_lib.dir/Intersections.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Intersections.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Intersections.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Intersections.cpp -o CMakeFiles/Raytracer_lib.dir/Intersections.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Intersections.cpp -o CMakeFiles/Raytracer_lib.dir/Intersections.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o: ../src/Matrix.cpp
 src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Matrix.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Matrix.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Matrix.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.cpp > CMakeFiles/Raytracer_lib.dir/Matrix.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Matrix.cpp > CMakeFiles/Raytracer_lib.dir/Matrix.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Matrix.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix.cpp -o CMakeFiles/Raytracer_lib.dir/Matrix.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Matrix.cpp -o CMakeFiles/Raytracer_lib.dir/Matrix.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o: ../src/Matrix2.cpp
 src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Matrix2.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix2.cpp > CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Matrix2.cpp > CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix2.cpp -o CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Matrix2.cpp -o CMakeFiles/Raytracer_lib.dir/Matrix2.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o: ../src/Matrix3.cpp
 src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Matrix3.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix3.cpp > CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Matrix3.cpp > CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix3.cpp -o CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Matrix3.cpp -o CMakeFiles/Raytracer_lib.dir/Matrix3.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o: ../src/Matrix4.cpp
 src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Matrix4.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.cpp > CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Matrix4.cpp > CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Matrix4.cpp -o CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Matrix4.cpp -o CMakeFiles/Raytracer_lib.dir/Matrix4.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Ray.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Ray.cpp.o: ../src/Ray.cpp
 src/CMakeFiles/Raytracer_lib.dir/Ray.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Ray.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Ray.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Ray.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Ray.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Ray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Ray.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Ray.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Ray.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Ray.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Ray.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Ray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Ray.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Ray.cpp > CMakeFiles/Raytracer_lib.dir/Ray.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Ray.cpp > CMakeFiles/Raytracer_lib.dir/Ray.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Ray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Ray.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Ray.cpp -o CMakeFiles/Raytracer_lib.dir/Ray.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Ray.cpp -o CMakeFiles/Raytracer_lib.dir/Ray.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Shape.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Shape.cpp.o: ../src/Shape.cpp
 src/CMakeFiles/Raytracer_lib.dir/Shape.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Shape.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Shape.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Shape.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Shape.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Shape.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Shape.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Shape.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Shape.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Shape.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Shape.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Shape.cpp > CMakeFiles/Raytracer_lib.dir/Shape.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Shape.cpp > CMakeFiles/Raytracer_lib.dir/Shape.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Shape.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Shape.cpp -o CMakeFiles/Raytracer_lib.dir/Shape.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Shape.cpp -o CMakeFiles/Raytracer_lib.dir/Shape.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o: ../src/Sphere.cpp
 src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Sphere.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Sphere.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Sphere.cpp > CMakeFiles/Raytracer_lib.dir/Sphere.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Sphere.cpp > CMakeFiles/Raytracer_lib.dir/Sphere.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Sphere.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Sphere.cpp -o CMakeFiles/Raytracer_lib.dir/Sphere.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Sphere.cpp -o CMakeFiles/Raytracer_lib.dir/Sphere.cpp.s
 
 src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o: src/CMakeFiles/Raytracer_lib.dir/flags.make
 src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o: ../src/Tuple.cpp
 src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o: src/CMakeFiles/Raytracer_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o -c /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o -MF CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o.d -o CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o -c /mnt/d/git/Overig/raytracer-cpp/src/Tuple.cpp
 
 src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Raytracer_lib.dir/Tuple.cpp.i"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.cpp > CMakeFiles/Raytracer_lib.dir/Tuple.cpp.i
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/git/Overig/raytracer-cpp/src/Tuple.cpp > CMakeFiles/Raytracer_lib.dir/Tuple.cpp.i
 
 src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Raytracer_lib.dir/Tuple.cpp.s"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src/Tuple.cpp -o CMakeFiles/Raytracer_lib.dir/Tuple.cpp.s
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/git/Overig/raytracer-cpp/src/Tuple.cpp -o CMakeFiles/Raytracer_lib.dir/Tuple.cpp.s
 
 # Object files for target Raytracer_lib
 Raytracer_lib_OBJECTS = \
@@ -269,19 +269,19 @@ lib/libRaytracer_lib.a: src/CMakeFiles/Raytracer_lib.dir/Sphere.cpp.o
 lib/libRaytracer_lib.a: src/CMakeFiles/Raytracer_lib.dir/Tuple.cpp.o
 lib/libRaytracer_lib.a: src/CMakeFiles/Raytracer_lib.dir/build.make
 lib/libRaytracer_lib.a: src/CMakeFiles/Raytracer_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library ../lib/libRaytracer_lib.a"
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/Raytracer_lib.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Raytracer_lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library ../lib/libRaytracer_lib.a"
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/Raytracer_lib.dir/cmake_clean_target.cmake
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Raytracer_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Raytracer_lib.dir/build: lib/libRaytracer_lib.a
 .PHONY : src/CMakeFiles/Raytracer_lib.dir/build
 
 src/CMakeFiles/Raytracer_lib.dir/clean:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/Raytracer_lib.dir/cmake_clean.cmake
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/Raytracer_lib.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Raytracer_lib.dir/clean
 
 src/CMakeFiles/Raytracer_lib.dir/depend:
-	cd /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Matthijs/CLionProjects/Raytracer /mnt/c/Users/Matthijs/CLionProjects/Raytracer/src /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src /mnt/c/Users/Matthijs/CLionProjects/Raytracer/cmake-build-debug/src/CMakeFiles/Raytracer_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/git/Overig/raytracer-cpp /mnt/d/git/Overig/raytracer-cpp/src /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src /mnt/d/git/Overig/raytracer-cpp/cmake-build-debug/src/CMakeFiles/Raytracer_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Raytracer_lib.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS
 
-CXX_INCLUDES = -I/mnt/c/Users/Matthijs/CLionProjects/Raytracer/src -isystem /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock/include -isystem /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googlemock -isystem /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest/include -isystem /mnt/c/Users/Matthijs/CLionProjects/Raytracer/test/lib/googletest
+CXX_INCLUDES = -I/mnt/d/git/Overig/raytracer-cpp/src -isystem /mnt/d/git/Overig/raytracer-cpp/test/lib/googlemock/include -isystem /mnt/d/git/Overig/raytracer-cpp/test/lib/googlemock -isystem /mnt/d/git/Overig/raytracer-cpp/test/lib/googletest/include -isystem /mnt/d/git/Overig/raytracer-cpp/test/lib/googletest
 
-CXX_FLAGS = -g -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -static-libgcc -static-libstdc++ -ggdb -std=c++14
+CXX_FLAGS = -g -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++0x -pthread -std=c++14
 
